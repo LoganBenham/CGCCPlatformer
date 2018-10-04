@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI
 {
     public static class Cursor

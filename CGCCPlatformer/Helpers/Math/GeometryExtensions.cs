@@ -1,5 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.Helpers.Math
 {
     public static class GeometryExtensions

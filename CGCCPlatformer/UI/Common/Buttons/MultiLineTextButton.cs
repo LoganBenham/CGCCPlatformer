@@ -5,6 +5,8 @@ using CGCCPlatformer.UI.DrawableText;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.Common.Buttons
 {
     public class MultiLineTextButton : Button

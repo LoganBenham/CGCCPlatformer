@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.Common
 {
     public abstract class InteractiveWindow : GameWindow

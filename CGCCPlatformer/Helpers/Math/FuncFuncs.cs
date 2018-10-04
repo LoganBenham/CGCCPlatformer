@@ -1,4 +1,6 @@
-﻿namespace CGCCPlatformer.Helpers.Math
+﻿//Written by Logan Benham
+
+namespace CGCCPlatformer.Helpers.Math
 {
     public static class FuncFuncs
     {

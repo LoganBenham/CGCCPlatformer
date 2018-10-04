@@ -2,6 +2,8 @@
 using CGCCPlatformer.Helpers.Graphics;
 using Microsoft.Xna.Framework;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.Common.Bar
 {
     public class FillableBar : GameWindow

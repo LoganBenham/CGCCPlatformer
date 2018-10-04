@@ -6,6 +6,8 @@ using Color = Microsoft.Xna.Framework.Color;
 using Point = Microsoft.Xna.Framework.Point;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.Common.Buttons
 {
     public class TextButton : Button

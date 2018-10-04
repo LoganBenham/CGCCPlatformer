@@ -1,9 +1,9 @@
 ﻿using System;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.Helpers.Math
 {
-    //Written by Logan Benham
-
     public class NormalRandom
     {
         public readonly Random Rand;

@@ -3,6 +3,8 @@ using CGCCPlatformer.Helpers.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.DrawableText
 {
     public struct ColorText : IDrawableText

@@ -6,6 +6,8 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.Common
 {
     public sealed class FpsCounter : InteractiveWindow

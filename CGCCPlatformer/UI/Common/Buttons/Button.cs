@@ -2,6 +2,8 @@
 using CGCCPlatformer.Helpers.Graphics;
 using Microsoft.Xna.Framework;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.Common.Buttons
 {
     public abstract class Button : InteractiveWindow

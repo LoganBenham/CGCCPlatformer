@@ -1,6 +1,8 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.DrawableText
 {
     public static class DrawableText

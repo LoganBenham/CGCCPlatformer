@@ -3,6 +3,8 @@ using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
+//Written by Logan Benham
+
 namespace CGCCPlatformer.UI.Common
 {
     public abstract class Menu : InteractiveWindow
