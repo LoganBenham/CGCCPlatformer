@@ -1,4 +1,6 @@
 ﻿using System;
+using CGCCPlatformer.Helpers;
+using CGCCPlatformer.Helpers.ExternalUtils;
 
 namespace CGCCPlatformer
 {
@@ -13,7 +15,9 @@ namespace CGCCPlatformer
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
+            ExceptionHelper.Initialize();
+            Logging.Initialize();
+            using (var game = new TheGame())
                 game.Run();
         }
     }

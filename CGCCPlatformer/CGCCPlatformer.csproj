@@ -38,9 +38,48 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Game1.cs" />
+    <Compile Include="TheGame.cs" />
+    <Compile Include="Helpers\ExternalUtils\BuildDate.cs" />
+    <Compile Include="Helpers\ExternalUtils\ClipboardHelper.cs" />
+    <Compile Include="Helpers\ExternalUtils\ExceptionHelper.cs" />
+    <Compile Include="Helpers\Graphics\Colors.cs" />
+    <Compile Include="Helpers\Graphics\Cursors.cs" />
+    <Compile Include="Helpers\Graphics\Drawing.cs" />
+    <Compile Include="Helpers\Graphics\Fonts.cs" />
+    <Compile Include="Helpers\Graphics\Gfx.cs" />
+    <Compile Include="Helpers\Logging.cs" />
+    <Compile Include="Helpers\Math\Angle.cs" />
+    <Compile Include="Helpers\Math\FuncFuncs.cs" />
+    <Compile Include="Helpers\Math\GeometryExtensions.cs" />
+    <Compile Include="Helpers\Math\NormalRandom.cs" />
+    <Compile Include="Helpers\NiceNumbers.cs" />
+    <Compile Include="Helpers\Utils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Common\Bar\DoubleEndedBar.cs" />
+    <Compile Include="UI\Common\Bar\FillableBar.cs" />
+    <Compile Include="UI\Common\Bar\ProgressBar.cs" />
+    <Compile Include="UI\Common\Buttons\Button.cs" />
+    <Compile Include="UI\Common\Buttons\MultiLineTextButton.cs" />
+    <Compile Include="UI\Common\Buttons\TextButton.cs" />
+    <Compile Include="UI\Common\FPSCounter.cs" />
+    <Compile Include="UI\Common\GameWindow.cs" />
+    <Compile Include="UI\Common\InteractiveWindow.cs" />
+    <Compile Include="UI\Common\Menu.cs" />
+    <Compile Include="UI\Common\TextBox.cs" />
+    <Compile Include="UI\Cursor.cs" />
+    <Compile Include="UI\DrawableText\ColorText.cs" />
+    <Compile Include="UI\DrawableText\Icon.cs" />
+    <Compile Include="UI\DrawableText\IDrawableText.cs" />
+    <Compile Include="UI\DrawableText\MulticolorText.cs" />
+    <Compile Include="UI\DrawableText\SectionedText.cs" />
+    <Compile Include="UI\DrawableText\PlainText.cs" />
+    <Compile Include="UI\Input.cs" />
+    <Compile Include="UI\Option.cs" />
+    <Compile Include="UI\Screens\LoadingScreen.cs" />
+    <Compile Include="UI\Screens\EscMenu.cs" />
+    <Compile Include="UI\Screens\MainMenu.cs" />
+    <Compile Include="UI\Screens\NewGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="OpenTK">
@@ -53,6 +92,8 @@
       <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +105,7 @@
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
